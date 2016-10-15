@@ -69,127 +69,138 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 7, ../sass/screen.scss */
 .container {
+  overflow: hidden;
   box-sizing: border-box;
   max-width: 960px;
   margin: 0 auto;
   background-color: white;
-  overflow: hidden;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body {
   background-image: url("../img/300-subtle-patterns.jpg");
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .header {
-  margin: 0 auto;
   max-width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 25, ../sass/screen.scss */
+.header input[type="text"] {
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 6px;
+  margin-left: 30px;
+  padding-left: 10px;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .header h1 {
-  font: 30px Arial;
+  font: bold 35px Arial;
   color: lime;
+  float: left;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .black {
   color: black;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .nav {
   font: bold 20px Arial;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
   color: white;
   background-color: black;
-  text-align: center;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .nav ul {
   list-style-type: none;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .nav li {
   display: inline;
   margin-right: 15px;
   margin-left: 15px;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .nav li a {
   text-decoration: none;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .nav li a:link,
 .nav li a:visited {
   color: white;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .nav li a:hover {
-  color: green;
+  color: lime;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .product {
-  border: 1px solid black;
   overflow: hidden;
   padding: 30px;
+  border: 1px solid black;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .product h2 {
   font: bold 30px calibri, non-serif;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .product aside {
   float: right;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .aside {
   margin-top: 30px;
   margin-right: 50px;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .product img {
-  width: 400px;
-  height: 400px;
   display: block;
   float: left;
+  width: 400px;
+  height: 400px;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 dt {
   font: bold 20px calibri, non-serif;
   margin-bottom: 5px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 dd {
   font: 20px calibri, non-serif;
   margin-bottom: 40px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 dt.price {
   font: bold 30px calibri, non-serif;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 dd.price {
   font: bold 30px calibri, non-serif;
   color: darkgrey;

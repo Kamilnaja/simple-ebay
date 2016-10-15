@@ -5,31 +5,41 @@
 
 @import 'compass/reset';
 .container {
+	overflow: hidden;
 	box-sizing: border-box;
 	max-width: 960px;
 	margin: 0 auto;
 
 	background-color: white;
-	overflow: hidden;
 }
 
-.bg {
 
-}
 body {
 	background-image: url('../img/300-subtle-patterns.jpg');
 }
 .header {
-	margin: 0 auto;
 	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	input[type="text"] {
+		border-radius: 5px;
+		height: 25px;
+		margin-top: 6px;
+		margin-left: 30px;
+		padding-left: 10px;
+
+	}
+
+
 }
 .header h1 {
-	font: 30px Arial;
+	font: bold 35px Arial;
 
 	color: lime;
-
-
+	float: left;
 }
+
 .black {
 	color: black;
 }
@@ -39,9 +49,10 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 
+	text-align: center;
+
 	color: white;
 	background-color: black;
-	text-align: center;
 }
 .nav ul {
 	list-style-type: none;
@@ -60,15 +71,17 @@ body {
 	color: white;
 }
 .nav li a:hover {
-	color: green;
+	color: lime;
 }
 .product {
-	border: 1px solid black;
 	overflow: hidden;
+
 	padding: 30px;
+
+	border: 1px solid black;
 }
 .product h2 {
-	font: bold 30px calibri, non-serif
+	font: bold 30px calibri, non-serif;
 }
 .product aside {
 	float: right;
@@ -82,25 +95,28 @@ body {
 }
 
 .product	img {
-		width: 400px;
-		height: 400px;
-		display: block;
-		float: left;
-	}
+	display: block;
+	float: left;
 
-	dt {
-		font: bold 20px calibri, non-serif;
-		margin-bottom: 5px;
+	width: 400px;
+	height: 400px;
+}
 
-	}
-	dd {
-		font: 20px calibri, non-serif;
-		margin-bottom: 40px;
-	}
-	dt.price {
-		font: bold 30px calibri, non-serif;
-	}
-	dd.price {
-		font: bold 30px calibri, non-serif;
-		color: darkgrey;
-	}
+dt {
+	font: bold 20px calibri, non-serif;
+
+	margin-bottom: 5px;
+}
+dd {
+	font: 20px calibri, non-serif;
+
+	margin-bottom: 40px;
+}
+dt.price {
+	font: bold 30px calibri, non-serif;
+}
+dd.price {
+	font: bold 30px calibri, non-serif;
+
+	color: darkgrey;
+}

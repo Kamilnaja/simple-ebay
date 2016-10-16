@@ -6,6 +6,7 @@
 @import 'compass/reset';
 .my-container {
 	overflow: hidden;
+
 	box-sizing: border-box;
 	max-width: 960px;
 	margin: 0 auto;
@@ -13,40 +14,40 @@
 	background-color: white;
 }
 
-
-body {
+.my-body {
 	background-image: url('../img/300-subtle-patterns.jpg');
 }
-form {
 
-}
 .my-header {
 	max-width: 960px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto;
 
-	input[type="text"] {
-		border-radius: 5px;
+
+	input[type='text'] {
 		height: 27px;
 		margin-top: 6px;
 		margin-left: 30px;
 		padding-left: 10px;
-	}
-	button {
-		width: 15px;
-		padding-top: 13px;
-		padding-bottom: 13px;
-		box-sizing: content-box;
-		background-image: url("../img/sprite.png");
-		background-position: -3px -2px;
-		border: none;
+
 		border-radius: 5px;
+	}
+	.my-btn {
 		position: relative;
 		right: 35px;
 		bottom: 4px;
-		
-		transition: 0.3s linear;
+
+		box-sizing: content-box;
+		width: 15px;
+
+		padding-top: 13px;
+		padding-bottom: 13px;
+
+		transition: .3s linear;
+
+		border: none;
+		border-radius: 5px;
+		background-image: url('../img/sprite.png');
+		background-position: -3px -2px;
 		&:hover {
 			background-position: -3px -33px;
 		}
@@ -55,8 +56,9 @@ form {
 .my-header h1 {
 	font: bold 35px Arial;
 
-	color: lime;
 	float: left;
+
+	color: lime;
 }
 
 .my-black {
@@ -64,9 +66,7 @@ form {
 }
 .my-nav {
 	font: bold 20px Arial;
-
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 0;
 
 	text-align: center;
 

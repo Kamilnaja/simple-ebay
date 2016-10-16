@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import 'compass/reset';
-.container {
+.my-container {
 	overflow: hidden;
 	box-sizing: border-box;
 	max-width: 960px;
@@ -20,7 +20,7 @@ body {
 form {
 
 }
-.header {
+.my-header {
 	max-width: 960px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -52,17 +52,17 @@ form {
 		}
 	}
 }
-.header h1 {
+.my-header h1 {
 	font: bold 35px Arial;
 
 	color: lime;
 	float: left;
 }
 
-.black {
+.my-black {
 	color: black;
 }
-.nav {
+.my-nav {
 	font: bold 20px Arial;
 
 	padding-top: 20px;
@@ -73,69 +73,70 @@ form {
 	color: white;
 	background-color: black;
 }
-.nav ul {
+.my-nav ul {
 	list-style-type: none;
 }
-.nav li {
+.my-nav li {
 	display: inline;
 
 	margin-right: 15px;
 	margin-left: 15px;
 }
-.nav li a {
+.my-nav li a {
 	text-decoration: none;
 }
-.nav li a:link,
-.nav li a:visited {
+.my-nav li a:link,
+.my-nav li a:visited {
 	color: white;
 }
-.nav li a:hover {
+.my-nav li a:hover {
 	color: lime;
 }
-.product {
+.my-product {
 	overflow: hidden;
 
 	padding: 30px;
 
 	border: 1px solid black;
 }
-.product h2 {
+.my-product h2 {
 	font: bold 30px calibri, non-serif;
 }
-.product aside {
+.my-product aside {
 	float: right;
 }
-.clear {
+.my-clear {
 	clear: both;
 }
-.aside {
+.my-aside {
 	margin-top: 30px;
 	margin-right: 50px;
 }
 
-.product	img {
+.my-product	img {
 	display: block;
 	float: left;
 
 	width: 400px;
 	height: 400px;
 }
+.my-parameters {
+	dt {
+		font: bold 20px calibri, non-serif;
 
-dt {
-	font: bold 20px calibri, non-serif;
+		margin-bottom: 5px;
+	}
+	dd {
+		font: 20px calibri, non-serif;
 
-	margin-bottom: 5px;
-}
-dd {
-	font: 20px calibri, non-serif;
+		margin-bottom: 40px;
+	}
+	dt.price {
+		font: bold 30px calibri, non-serif;
+	}
+	dd.price {
+		font: bold 30px calibri, non-serif;
 
-	margin-bottom: 40px;
-}
-dt.price {
-	font: bold 30px calibri, non-serif;
-}
-dd.price {
-	font: bold 30px calibri, non-serif;
-
-	color: darkgrey;
+		color: darkgrey;
+	}
 }

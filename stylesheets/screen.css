@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 7, ../sass/screen.scss */
-.container {
+.my-container {
   overflow: hidden;
   box-sizing: border-box;
   max-width: 960px;
@@ -82,14 +82,14 @@ body {
 }
 
 /* line 23, ../sass/screen.scss */
-.header {
+.my-header {
   max-width: 960px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 /* line 29, ../sass/screen.scss */
-.header input[type="text"] {
+.my-header input[type="text"] {
   border-radius: 5px;
   height: 27px;
   margin-top: 6px;
@@ -97,7 +97,7 @@ body {
   padding-left: 10px;
 }
 /* line 36, ../sass/screen.scss */
-.header button {
+.my-header button {
   width: 15px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -112,24 +112,24 @@ body {
   transition: 0.3s linear;
 }
 /* line 50, ../sass/screen.scss */
-.header button:hover {
+.my-header button:hover {
   background-position: -3px -33px;
 }
 
 /* line 55, ../sass/screen.scss */
-.header h1 {
+.my-header h1 {
   font: bold 35px Arial;
   color: lime;
   float: left;
 }
 
 /* line 62, ../sass/screen.scss */
-.black {
+.my-black {
   color: black;
 }
 
 /* line 65, ../sass/screen.scss */
-.nav {
+.my-nav {
   font: bold 20px Arial;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -139,63 +139,63 @@ body {
 }
 
 /* line 76, ../sass/screen.scss */
-.nav ul {
+.my-nav ul {
   list-style-type: none;
 }
 
 /* line 79, ../sass/screen.scss */
-.nav li {
+.my-nav li {
   display: inline;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 /* line 85, ../sass/screen.scss */
-.nav li a {
+.my-nav li a {
   text-decoration: none;
 }
 
 /* line 88, ../sass/screen.scss */
-.nav li a:link,
-.nav li a:visited {
+.my-nav li a:link,
+.my-nav li a:visited {
   color: white;
 }
 
 /* line 92, ../sass/screen.scss */
-.nav li a:hover {
+.my-nav li a:hover {
   color: lime;
 }
 
 /* line 95, ../sass/screen.scss */
-.product {
+.my-product {
   overflow: hidden;
   padding: 30px;
   border: 1px solid black;
 }
 
 /* line 102, ../sass/screen.scss */
-.product h2 {
+.my-product h2 {
   font: bold 30px calibri, non-serif;
 }
 
 /* line 105, ../sass/screen.scss */
-.product aside {
+.my-product aside {
   float: right;
 }
 
 /* line 108, ../sass/screen.scss */
-.clear {
+.my-clear {
   clear: both;
 }
 
 /* line 111, ../sass/screen.scss */
-.aside {
+.my-aside {
   margin-top: 30px;
   margin-right: 50px;
 }
 
 /* line 116, ../sass/screen.scss */
-.product img {
+.my-product img {
   display: block;
   float: left;
   width: 400px;
@@ -203,24 +203,21 @@ body {
 }
 
 /* line 124, ../sass/screen.scss */
-dt {
+.my-parameters dt {
   font: bold 20px calibri, non-serif;
   margin-bottom: 5px;
 }
-
 /* line 129, ../sass/screen.scss */
-dd {
+.my-parameters dd {
   font: 20px calibri, non-serif;
   margin-bottom: 40px;
 }
-
 /* line 134, ../sass/screen.scss */
-dt.price {
+.my-parameters dt.price {
   font: bold 30px calibri, non-serif;
 }
-
 /* line 137, ../sass/screen.scss */
-dd.price {
+.my-parameters dd.price {
   font: bold 30px calibri, non-serif;
   color: darkgrey;
 }
